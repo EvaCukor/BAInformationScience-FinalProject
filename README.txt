@@ -1,0 +1,5 @@
+This is an accent-morphological generator for Croatian verbs written in Python in 2009 as part of the final thesis for the BA in Information Science at the University of Zagreb. 
+
+The generator consists of a Python script generator.py (using UTF-8 encoding) and a database with two tables: one with a list of Croatian verbs taken from the Croatian Valency Lexicon of Verbs (http://theta.ffzg.hr/crovallex/) and one containing the generated verb forms with appropriate accents.
+
+The generator generates all verb forms with accents for two- and three-syllable verbs in accordance with the list of Croatian verb models with described conjugation and accentual paradigms taken from the PhD dissertation of the mentor for this thesis. Multiple-syllable verbs are not covered by this thesis, but their accentual and conjugation rules are almost identical to those of three-syllable verbs, so they could be easily coded.
